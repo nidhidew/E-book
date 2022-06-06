@@ -1,0 +1,68 @@
+.home{
+    background: url(../image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.book-info .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.book-info .row .content{
+    flex:1 1 42rem;
+}
+
+.book-info .row .content h2{
+    color:var(--black);
+    font-size: 200%;
+}
+
+.book-info .row .content p{
+    color:var(--light-color);
+    line-height: 2;
+    padding:1rem 0;
+}
+
+@media (max-width:768px){
+
+    .book-info .row .content{
+        text-align: center;
+    }
+
+    .book-info .row .content h2{
+        font-size: 200%;
+    }
+
+}
+
+img{
+    height: 40rem;
+}
+
+.book-info{
+    flex:1 1 42rem;
+    text-align: right;
+    margin-top: -27%;
+}
+
+.book-info h2{
+    font-size: 350% !important;
+}
+
+.book-info p{
+    font-size: 150% !important;
+    padding-left: 50%;
+}
+
+.price{
+    font-size: medium !important;
+}
+
+span{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-decoration: line-through;
+}
